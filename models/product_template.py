@@ -15,9 +15,9 @@
 #
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-from openerp import api
-from openerp import fields
-from openerp import models
+from odoo import api
+from odoo import fields
+from odoo import models
 
 class ProductTemplate(models.Model):
     _inherit = "product.template"
